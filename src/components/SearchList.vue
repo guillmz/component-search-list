@@ -86,7 +86,7 @@ export default {
   },
   methods: {
     listShow: function () {
-      this.isShowList = true;
+      this.isShowList = ! this.isShowList;
     },
     listHidden: function (title) {
       this.isShowList = false;
